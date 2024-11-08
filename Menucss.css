@@ -1,0 +1,32 @@
+ /* Custom Navbar Style */
+ .navbar {
+    border-bottom: 2px solid #a8e78e; /* Adds a subtle border at the bottom of the navbar */
+    background-color: #9aefa7; color: #aee5a0; /* Green background color for the navbar */
+  }
+
+  .navbar-brand {
+    font-family: 'Arial', sans-serif; /* Custom font for the brand */
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.25rem; /* Adjusting padding for links */
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa; /* Light background color on hover */
+    color: #8ad56a6a; /* Change text color to primary on hover */
+  }
+
+  .navbar-toggler {
+    border-color: #aee5a021; /* Change the color of the hamburger menu */
+  }
+
+  .navbar-toggler-icon {
+    background-color: #a3f09038; /* Change the color of the toggler icon */
+  }
+
+  .navbar-dark {
+    background-color: #38573d;
+  }
